@@ -1,0 +1,73 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #e8f5e9;
+}
+
+/* Main Container */
+.container {
+  width: 85%;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+  text-align: center;
+  color: #2e7d32;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #a5d6a7;
+}
+
+/* Scoreboard */
+#scoreboard {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+/* Commentary */
+#commentary {
+  background: #f1f8e9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Buttons */
+#game-controls {
+  text-align: center;
+}
+
+#game-controls button {
+  background-color: #43a047;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#game-controls button:hover {
+  background-color: #223823;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  #game-controls button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
